@@ -19,8 +19,8 @@ pkl_dir = Path.cwd() / "pkls"
 
 app = Flask(__name__)
 
-class_explainer = ClassifierExplainer.from_file(pkl_dir / "clas_explainer.joblib")
-class_dashboard = ExplainerDashboard(clas_explainer, 
+class_explainer = ClassifierExplainer.from_file(pkl_dir / "class_explainer.joblib")
+class_dashboard = ExplainerDashboard(class_explainer, 
                     title="Classifier Explainer: Predicting Health_status for Salmon", 
                     server=app, url_base_pathname="/classifier/", 
                     header_hide_selector=True)
