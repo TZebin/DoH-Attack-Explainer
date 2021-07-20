@@ -33,8 +33,7 @@ index_app = dash.Dash(
     external_stylesheets=[BOOTSTRAP])
 
 index_app.title = 'Salmon explainerdashboard'
-index_app.layout = index_layout
-register_callbacks(index_app)
+
 
 @app.route("/")
 def index():
