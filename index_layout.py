@@ -120,7 +120,6 @@ a custom dashboard.
     ]),
     
     ], justify="start")
-])
 
 def register_callbacks(app):
     @app.callback(
