@@ -19,8 +19,8 @@ pkl_dir = Path.cwd() / "pkls"
 
 app = Flask(__name__)
 
-clas_explainer = ClassifierExplainer.from_file(pkl_dir / "class_explainer.joblib")
-clas_dashboard = ExplainerDashboard(clas_explainer, 
+class_explainer = ClassifierExplainer.from_file(pkl_dir / "class_explainer.joblib")
+class_dashboard = ExplainerDashboard(class_explainer, 
                     title="Classifier Explainer: Predicting Health_status for Salmon", 
                     server=app, url_base_pathname="/classifier/", 
                     header_hide_selector=True)
@@ -42,7 +42,7 @@ def index():
 
 @app.route('/classifier')
 def classifier_dashboard():
-    return clas_dashboard.app.index()
+    return class_dashboard.app.index()
 
 
 
