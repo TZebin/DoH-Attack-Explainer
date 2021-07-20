@@ -90,7 +90,7 @@ clas_explainer.dump(pkl_dir/ "clas_explainer.joblib")
     style={"width": "18rem"},
 )
 
-default_cards = dbc.CardDeck([Salmon_card])
+default_cards = dbc.CardDeck([salmon_card])
 
 index_layout =  dbc.Container([
     navbar,     
