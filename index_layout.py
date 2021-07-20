@@ -99,7 +99,7 @@ index_layout =  dbc.Container([
             html.H3("explainerdashboard"),
            
         ])
-    ], justify="center"),
+    ]),
     
     
     dbc.Row([
@@ -111,7 +111,7 @@ regression and multi class classification problems, plus one demonstration of
 a custom dashboard.
 """),
         ])
-    ], justify="center"),
+    ]),
     
     dbc.Row([
         dbc.Col([
@@ -119,7 +119,7 @@ a custom dashboard.
         ]),
     ]),
     
-    ], justify="start")
+    ])
 
 def register_callbacks(app):
     @app.callback(
