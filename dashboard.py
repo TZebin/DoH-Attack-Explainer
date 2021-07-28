@@ -13,7 +13,7 @@ from dash_bootstrap_components.themes import FLATLY, BOOTSTRAP # bootstrap theme
 from explainerdashboard import *
 
 from index_layout import index_layout, register_callbacks
-from custom import CustomModelTab, CustomPredictionsTab
+#from custom import CustomModelTab, CustomPredictionsTab
 
 pkl_dir = Path.cwd() / "pkls"
 
