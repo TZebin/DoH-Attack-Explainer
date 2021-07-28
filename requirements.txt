@@ -3,3 +3,4 @@ pandas==1.3.0
 joblib==0.17.0
 gunicorn
 requests
+pickle
