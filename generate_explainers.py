@@ -23,4 +23,4 @@ class_explainer = ClassifierExplainer(model, X_test, y_test,
                                labels=['HEALTHY', 'UNHEALTHY'])
 _ = ExplainerDashboard(class_explainer)
 #class_explainer.dump(pkl_dir/ "class_explainer.joblib")
-class_explainer.dump(pkl_dir/ "class_explainer.pkl")
+class_explainer.dump(pkl_dir/ "explainer.pkl")
