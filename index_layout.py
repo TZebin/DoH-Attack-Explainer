@@ -73,7 +73,7 @@ clas_explainer = ClassifierExplainer(model, X_test, y_test,
                                descriptions=feature_descriptions,
                                labels=['HEALTHY', 'UNHEALTHY'])
 _ = ExplainerDashboard(clas_explainer)
-clas_explainer.dump(pkl_dir/ "clas_explainer.joblib")
+clas_explainer.dump(pkl_dir/ "clas_explainer.pkl")
 ```
 """
                         ),
