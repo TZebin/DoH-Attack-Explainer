@@ -11,7 +11,9 @@ You can install the package through pip:
 or conda-forge:
 
 `conda install -c conda-forge explainerdashboard`
-The library includes:
+
+
+##The library includes:
 - *Shap values* (i.e. what is the contributions of each feature to each individual prediction?)
 - *Permutation importances* (how much does the model metric deteriorate when you shuffle a feature?)
 - *Partial dependence plots* (how does the model prediction change when you vary a single feature?
@@ -22,7 +24,7 @@ The library includes:
 
 ## Command line tool
 
-You can store explainers to disk with `explainer.dump("explainer.joblib")`
+You can store explainers to disk with `explainer.dump("explainer.pkl")`
 and then run them from the command-line:
 
 ```bash
