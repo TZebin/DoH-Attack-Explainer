@@ -9,8 +9,8 @@ from explainerdashboard import ClassifierExplainer, ExplainerDashboard
 pkl_dir = Path.cwd() / "pkls"
 data_dir= Path.cwd() / "data"
 df=pd.read_csv(data_dir /'new_processed.csv')
-y=df['JB_category']
-X=df.drop(columns=['JB_category'])
+y=df['Attack_label']
+X=df.drop(columns=['Attack_label'])
 
 
 
