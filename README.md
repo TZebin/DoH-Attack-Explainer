@@ -1,6 +1,6 @@
 # DoH Attack Explainer
 An Explainable AI-based Intrusion Detection System for DNS over HTTPS (DoH) Attacks
-![dashboard_recording_First_Frame](https://user-images.githubusercontent.com/31511385/169506515-39478118-e37f-4c81-aa2c-72cd5ba07b54.png)
+<!-- ![dashboard_recording_First_Frame](https://user-images.githubusercontent.com/31511385/169506515-39478118-e37f-4c81-aa2c-72cd5ba07b54.png) -->
 
 
 
